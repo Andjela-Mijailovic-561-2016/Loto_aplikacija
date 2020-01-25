@@ -1,0 +1,11 @@
+<?php
+require_once('core/conn.php');
+$query = "INSERT INTO `courses` (`title`, `lessons`) VALUES ('PHP Intro', '10');";
+$result = $link->query($query);
+if($result){echo 'added';}else{echo $link-error;}
+$sql = "INSERT INTO `courses` (`title`, `lessons`) VALUES ('course1', '1');";
+$sql .= "INSERT INTO `courses` (`title`, `lessons`) VALUES ('course2', '2');";
+$sql .= "INSERT INTO `courses` (`title`, `lessons`) VALUES ('course3', '3');";
+$resultm = $link->multi_query($sql);
+if($resultm){echo 'added';}else{echo $link-error;}
+ ?>

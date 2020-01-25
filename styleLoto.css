@@ -1,0 +1,30 @@
+body{
+	background-color: lightblue;
+}
+
+.table{
+	border: 1px solid #B0C4DE;
+		background-color: white;
+		border-radius: 5px;
+		padding-top: 30px;
+  		padding-right: 30px;
+ 		padding-bottom: 30px;
+ 		padding-left: 30px;
+ 		width: 800px;
+ 		height: 30px;
+ 		margin-left: 250px;
+ 		margin-right: 250px;
+ 		margin-top: 50px;
+ 		font-size:110%;
+ 		font-style: bold;
+}
+
+th {
+	padding: 20px;
+  background-color: green;
+  color: white;
+}
+
+.povratna{
+	text-align: right;
+}

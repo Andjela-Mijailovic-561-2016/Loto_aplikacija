@@ -1,0 +1,60 @@
+.greska{
+	border-radius: 5px;
+	width: 400px;
+	position: center;
+	border: 1px solid red;
+	background-color: #ffcccc;
+	padding-top: 30px;
+  		padding-right: 100px;
+ 		padding-bottom: 100px;
+ 		padding-left: 100px;
+ 		text-align: center;
+ 		height: 150px;
+ 		margin-left: 250px;
+ 		margin-right: 250px;
+ 		margin-top: 30px;
+ 		font-size:110%;
+}
+body{margin:0px;
+	background-color: lightblue;
+    padding-top: 0px;
+    border:1px;
+}
+
+.table{
+	border: 1px solid #B0C4DE;
+		background-color: white;
+		border-radius: 5px;
+		padding-top: 14px;
+  		padding-right: 30px;
+ 		padding-bottom: 30px;
+ 		padding-left: 30px;
+ 		width: 800px;
+ 		height: 30px;
+ 		margin-left: 250px;
+ 		margin-right: 250px;
+ 		margin-top: 30px;
+ 		font-size:110%;
+ 		font-style: bold;
+}
+
+th {
+	margin: 0px auto;
+	width: 50%;
+	height: 50%;
+	font-size: 160%;
+	padding: 20px;
+  background-color: #5F9EA0;
+  color: white;
+}
+td{padding: 7px;
+	height:50%;
+    
+	margin-bottom:15px;
+	
+}
+.povratna{
+	position: absolute;
+    top: 20px;
+    right: 50px;
+}
